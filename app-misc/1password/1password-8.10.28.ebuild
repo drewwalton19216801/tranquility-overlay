@@ -48,8 +48,6 @@ src_install() {
 
 pkg_postinst() {
 	chmod 4755 /opt/1Password/chrome-sandbox
-	chmod u+s /opt/1Password/1Password-KeyringHelper
-	chmod g+s /opt/1Password/1Password-KeyringHelper
 	chmod g+s /opt/1Password/1Password-BrowserSupport
 
 	export POLICY_OWNERS
